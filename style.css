@@ -68,5 +68,14 @@
 }
 
 
+/* Media Queries */
+
+@media screen and (min-width: 200px) {
+   .calculator {
+    margin-bottom: 100px;
+   }
+  }
+
+
 
 
