@@ -3,7 +3,15 @@ let displayedNum = document.getElementById("output-displayed")
 
 // Function for calculating input from the end user 
 function Calculate(){
-    displayedNum.value = eval(displayedNum.value);
+
+    if(displayedNum){
+        displayedNum.value = eval(displayedNum.value);
+    }
+
+    else {
+        alert ("Invalid")
+    }
+   
 }
 
 // Function for displaying input from the end user

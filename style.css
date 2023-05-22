@@ -38,6 +38,11 @@
     margin: 10px;
     }
 
+ .button:hover {
+    background-color: pink;
+    color: black;
+}
+
  /* Styling for equal button */
 .equal{
     width: 115px;
